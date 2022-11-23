@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  text-transform: uppercase;
+}

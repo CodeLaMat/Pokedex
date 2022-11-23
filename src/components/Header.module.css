@@ -1,0 +1,10 @@
+.header {
+  padding: 1em;
+  height: 50px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-decoration: none;
+}

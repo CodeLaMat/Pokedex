@@ -1,0 +1,31 @@
+.card {
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 25px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.card .img-container {
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card .img-container img {
+  margin-top: 20px;
+  max-width: 90%;
+}
+
+img {
+  width: 20vh;
+}
+.card .img-container img:hover {
+  filter: none;
+  animation: shake 0.4s;
+  animation-iteration-count: infinite;
+}

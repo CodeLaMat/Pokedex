@@ -6,8 +6,9 @@ export default class Home extends Component {
   render() {
     return (
       <main className={classes.main}>
-        <Outlet />
-      </main>
+        <Outlet /> 
+        {/* It is wehere we want to display the roots */}
+          </main>
     );
   }
 }

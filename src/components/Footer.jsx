@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={classes.footer}>
       <div>
-        <p class="copyright">Copyright &copy; 2022</p>
+        <p className="copyright">Copyright &copy; 2022</p>
       </div>
     </footer>
   );

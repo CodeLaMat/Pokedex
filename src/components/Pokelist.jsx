@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { Component } from "react";
 import classes from "../components/Pokelist.module.css";
 import Card from "./Card";

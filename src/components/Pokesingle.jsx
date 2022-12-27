@@ -23,7 +23,7 @@ export default class Pokesingle extends Component {
       <div>
         <h2>{this.state.data.name}</h2>
         <img
-          src={this.state.data.sprites?.other.dream_world.fron_default}
+          src={this.state.data.sprites?.other.dream_world.front_default}
           alt={this.state.data.name}
         ></img>
       </div>
